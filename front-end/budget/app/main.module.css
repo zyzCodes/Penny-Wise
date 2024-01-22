@@ -1,17 +1,16 @@
 .flex{
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     flex-direction: row;
+    box-shadow: 0px 2px 15px #888888;
     }
     
-
 
 .graph{
     display:flex;
     height: 350px;
     transform: rotate(180deg);
     justify-content: flex-end;
-    
     }
     
     
@@ -23,7 +22,7 @@
     margin-right:5px;
     background-color: rgb(101,250,138);
     animation-name: first;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 .second {
     width: 75px;
@@ -32,7 +31,7 @@
     border-radius: 0px 0px 10px 10px;
     background-color: rgb(101,184,138);
     animation-name: second;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 .third {
     width: 75px;
@@ -41,20 +40,23 @@
     border-radius: 0px 0px 10px 10px;
     background-color: rgb(0,124,65);
     animation-name: third;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 
 .header{
-    font-size: 50px;
+    font-size: 80px;
+    font-weight: bold;
     animation-name: word;
     animation-duration:3s;
 }
 
 
 .secondHeader{
-    color: rgb(101,184,138);
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(101,250,138);
     animation-name: word;
-    animation-duration:4s;
+    animation-duration:6s;
 }
 
 @keyframes first {

@@ -14,7 +14,17 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'hero-large-screen':"url('/landing-page-lg.png')"
       },
+      keyframes:{
+        'fade-in':{
+          '0%' : {opacity:'0'},
+          '100%' : {opacity: '1'}
+        }
+      },
+      animation:{
+        'button-fade' : 'fade-in 3s'
+      }
     },
   },
   plugins: [require("daisyui")],
