@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <div className={styles.flex}>
         <div className="ml-10">
-            <h1 className={styles.header}>Save Money With Penny Wise.</h1>
+            <h1 className={styles.header}>Save Money Budget Wise.</h1>
             <h2 className={styles.secondHeader}>Create Budgets. See Results.</h2>
             <Link href="sign-in/"><button className="btn">Start Now</button></Link>
           </div>
