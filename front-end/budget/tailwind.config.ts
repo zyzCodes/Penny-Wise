@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
-
+//rgb(101,204,138) for the middle green
+// //rgb(101,250,138) for the first green
+// rgb(0,124,65)
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
